@@ -1,0 +1,71 @@
+@import "../../styles/globle.scss";
+
+.footer {
+  padding: 120px 216px 73px 216px;
+  @media (max-width: 1440px) {
+    padding: 120px 100px 73px 100px;
+  }
+  @media (max-width: 1024px) {
+    padding: 120px 60px 73px 60px;
+  }
+  @media (max-width: 768px) {
+    padding: 40px 60px 40px 60px;
+  }
+  background-color: $whiteColor;
+  border-top: 2px solid #eeeeee;
+  h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 62px;
+    @media (max-width: 768px) {
+      font-size: 15px;
+      line-height: 18px;
+      margin-bottom: 26px;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: $primaryColor;
+    }
+    @media (max-width: 768px) {
+      font-size: 13px;
+      line-height: 15px;
+      margin-bottom: 16px;
+    }
+  }
+  .lastFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    @media (max-width: 768px) {
+      margin-top: 40px;
+      svg {
+        width: 35px;
+      }
+    }
+    .footerIcons {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .companyTag {
+      p {
+        font-weight: 300;
+        font-size: 24px;
+        @media (max-width: 768px) {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

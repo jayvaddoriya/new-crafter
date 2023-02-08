@@ -1,0 +1,77 @@
+@import "../../../styles/globle.scss";
+.coreTeam {
+  padding-top: 240px;
+  @media (max-width: 1024px) {
+    padding-top: 200px;
+  }
+  @media (max-width: 768px) {
+    padding-top: 62px;
+  }
+  @media (max-width: 425px) {
+    padding-top: 0px;
+  }
+  .webAndMobileImg {
+    background-color: $primaryColor;
+    padding: $sectionPadding;
+    margin-right: 30px;
+    margin-bottom: 200px;
+    border-radius: 156px 0 156px 0;
+    @media (max-width: 1440px) {
+      padding: 0 100px;
+    }
+    @media (max-width: 1024px) {
+      padding: 0 60px;
+      margin-right: 24px;
+      margin-bottom: 140px;
+    }
+    @media (max-width: 768px) {
+      margin-right: 0px;
+      border-radius: 50px 0 50px 0;
+      margin-bottom: 120px;
+    }
+    @media (max-width: 425px) {
+      margin-right: 0px;
+      border-radius: 30px 0 30px 0;
+      margin-bottom: 50px;
+      padding: 0 30px;
+    }
+    .coreTeamMobileImg {
+      width: 100%;
+      margin-top: -200px;
+      @media (max-width: 768px) {
+        margin-top: -100px;
+      }
+      @media (max-width: 425px) {
+        margin-top: -50px;
+      }
+    }
+  }
+  h1 {
+    font-family: $extra-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: $whiteColor;
+    @media (max-width: 1024px) {
+      font-size: 44px;
+    }
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    @media (max-width: 425px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .btnDiv {
+    padding: 35px 0 80px 0;
+    @media (max-width: 768px) {
+      padding: 35px 0 50px 0;
+    }
+    @media (max-width: 425px) {
+      padding: 25px 0 30px 0;
+    }
+  }
+}

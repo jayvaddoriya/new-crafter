@@ -1,0 +1,130 @@
+/*  OpenSans fonts start */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Medium.woff2") format("woff2"),
+    url("../fonts/OpenSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/OpenSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/*  OpenSans fonts end */
+
+/* Roboto fonts start */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Roboto fonts end */
+
+/* Work Sans fonts start */
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Bold.woff2") format("woff2"),
+    url("../fonts/WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Medium.woff2") format("woff2"),
+    url("../fonts/WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-Regular.woff2") format("woff2"),
+    url("../fonts/WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/WorkSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Work Sans fonts end */
+
+/* default colors */
+$primaryColor: #8c0019;
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$textColor: #363535;
+$placeHolderTextColor: #898989;
+
+/* Font style */
+$primary-font: "Work Sans", sans-serif;
+$secondary-font: "Roboto", sans-serif;
+$extra-font: "Open Sans", sans-serif;
+
+/* spacing */
+$sectionPadding: 0 216px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: $primary-font;
+  font-weight: 400;
+  background-color: $whiteColor;
+}

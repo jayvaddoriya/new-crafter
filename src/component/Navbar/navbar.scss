@@ -1,0 +1,96 @@
+@import "../../styles/globle.scss";
+.header {
+  width: 100%;
+  background: $whiteColor !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 108px !important;
+  padding-inline: 216px !important;
+  border-bottom: 2px solid #eeeeee;
+  @media (max-width: 1440px) {
+    padding-inline: 100px !important;
+  }
+  @media (max-width: 1024px) {
+    padding-inline: 60px !important;
+  }
+  @media (max-width: 425px) {
+    padding-inline: 30px !important;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    @media (max-width: 425px) {
+      img {
+        width: 120px;
+      }
+    }
+  }
+  .hamBurgerMenu {
+    display: none;
+    @media (max-width: 768px) {
+      display: inherit;
+    }
+  }
+
+  .allNavLinks {
+    display: flex;
+    gap: 50px;
+    @media (max-width: 1024px) {
+      gap: 30px;
+    }
+
+    .navLink {
+      color: $blackColor;
+      font-weight: 500 !important;
+      font-size: 24px !important;
+      @media (max-width: 1024px) {
+        font-size: 22px !important;
+      }
+      &:hover {
+        color: $primaryColor;
+        font-weight: 500 !important;
+      }
+    }
+    .activeClassName {
+      font-weight: 500 !important;
+      font-size: 24px !important;
+      color: $primaryColor;
+      @media (max-width: 1024px) {
+        font-size: 22px !important;
+      }
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+// .drawerMenu {
+//   display: none;
+//   padding: 0 44px !important;
+//   .mobileNavLinks {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     .navLink {
+//       color: $blackColor;
+//       font-weight: 500 !important;
+//       font-size: 24px !important;
+//       border-bottom: 2px solid #eeeeee;
+//       height: 50px;
+//       margin-top: 16px;
+//       &:hover {
+//         color: $primaryColor !important;
+//         font-weight: 500 !important;
+//       }
+//     }
+//     .activeClassName {
+//       font-weight: 500 !important;
+//       font-size: 24px !important;
+//       color: $primaryColor;
+//       border-bottom: 2px solid #eeeeee;
+//       height: 50px;
+//       margin-top: 16px;
+//     }
+//   }
+// }

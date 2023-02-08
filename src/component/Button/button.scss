@@ -1,0 +1,77 @@
+@import "../../styles/globle.scss";
+
+.button {
+  font-weight: 600;
+  font-family: $primary-font;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: 0.5s all;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+.primaryBtn {
+  font-size: 15px;
+  line-height: 18px;
+  height: 42px;
+  background-color: $whiteColor !important;
+  border: 1px solid $primaryColor !important;
+  margin-left: 33px !important;
+  &:hover {
+    color: $primaryColor !important;
+  }
+}
+.primaryBigBtn {
+  font-size: 15px;
+  line-height: 18px;
+  height: 64px;
+  font-size: 22.5px;
+  line-height: 26px;
+  background-color: $whiteColor !important;
+  border: 1px solid $primaryColor !important;
+  @media (max-width: 768px) {
+    height: 60px;
+    padding: 0 20px;
+  }
+  @media (max-width: 425px) {
+    height: 34px;
+    padding: 0 20px;
+    font-size: 12.2099px;
+    line-height: 14px;
+    svg {
+      width: 26px;
+    }
+  }
+  &:hover {
+    color: $primaryColor !important;
+  }
+}
+
+.secondaryBtn {
+  background-color: #008c72;
+  border: 1px solid #008c72;
+  height: 73px;
+  font-size: 30px;
+  line-height: 35px;
+  color: $whiteColor;
+  padding: 0px 50px;
+  &:hover {
+    color: $whiteColor !important;
+  }
+  @media (max-width: 768px) {
+    padding: 0px 20px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  @media (max-width: 425px) {
+    width: 100%;
+    justify-content: center;
+    height: 60px;
+    svg {
+      position: absolute;
+      right: 10px;
+    }
+  }
+}
